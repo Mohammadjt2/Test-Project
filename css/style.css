@@ -1,6 +1,5 @@
 body,
 html {
-  background-color: #f5f5f5;
   position: relative;
   margin: 0;
   padding: 0;
@@ -168,3 +167,28 @@ html {
   padding: 10px;
 }
 /* section-three end */
+
+/* section-four start */
+.section-four {
+  text-align: center;
+  padding: 40px 0;
+  background: #bbbbbb;
+}
+.section-four div {
+  padding: 20px 0;
+  background: #dedddd;
+}
+.section-four h3 {
+  color: #e67e22;
+}
+.section-four div p {
+  padding: 30px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.section-four div button {
+  background: #dedddd;
+  padding: 5px 20px;
+}
+/* section-four end */
+
