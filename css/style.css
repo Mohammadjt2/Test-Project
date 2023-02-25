@@ -151,3 +151,20 @@ html {
   margin: auto;
 }
 /* section videos end */
+
+/* section-three start */
+.section-three {
+  text-align: center;
+}
+.section-three h4 {
+  padding: 20px 0;
+}
+.section-three-card {
+  padding: 20px 0;
+}
+.section-three-card img {
+  width: 360px;
+  height: 202px;
+  padding: 10px;
+}
+/* section-three end */
