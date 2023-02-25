@@ -11,6 +11,10 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <title>Mohammadjt2</title>
   </head>
   <body>
@@ -33,6 +37,22 @@
         </div>
       </nav>
       <!-- section navbar end -->
+      <!-- section swiper start -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/image.jpg" alt="image" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/image.jpg" alt="image" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/image.jpg" alt="image" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- section swiper end -->
     </div>
     <script src="./js/main.js"></script>
     <script
@@ -40,5 +60,20 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
