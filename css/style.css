@@ -262,3 +262,31 @@ html {
   color: #e67e22;
 }
 /* section-six end */
+
+/* section footer start */
+.section-footer {
+  background-color: #3c3c3c;
+  color: #e2e2e2;
+  padding: 10px 0;
+}
+.section-footer-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+  padding: 50px 0;
+  border-bottom: 1px solid #727272;
+}
+.section-footer-list-border {
+  color: #727272;
+}
+.section-footer-developer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.section-footer-developer-name {
+  color: #e67e22;
+}
+/* section-footer end */
