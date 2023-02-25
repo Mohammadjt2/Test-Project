@@ -241,3 +241,24 @@ html {
   text-align: right;
 }
 /* section-five end */
+
+/* section-six start */
+.section-six {
+  padding: 40px 0;
+  text-align: center;
+}
+.section-six p {
+  padding: 15px 0;
+  font-weight: 500px;
+}
+.section-six-button button {
+  width: 120px;
+  margin: 0 10px;
+  background-color: transparent;
+  padding: 5px;
+}
+.section-six-button :nth-child(2) {
+  border: 2px solid #e67e22;
+  color: #e67e22;
+}
+/* section-six end */
